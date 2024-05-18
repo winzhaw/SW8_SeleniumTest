@@ -1,0 +1,229 @@
+{
+  "id": "b95acde6-3bbb-4122-ad4c-0018dc2e9fb8",
+  "version": "2.0",
+  "name": "Coop",
+  "url": "https://www.coop.ch",
+  "tests": [{
+    "id": "2470c576-5561-4d60-bcfe-be25fe780538",
+    "name": "schoggi",
+    "commands": [{
+      "id": "d778894b-015d-43eb-b197-13f7240c83d3",
+      "comment": "",
+      "command": "open",
+      "target": "/de/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c37dcbe9-161f-4048-99aa-b98c2d2a45a4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1122",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6bc3f2e-2e77-4480-a425-3eb3a9264148",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_SearchBox",
+      "targets": [
+        ["id=input_SearchBox", "id"],
+        ["name=text", "name"],
+        ["css=#input_SearchBox", "css:finder"],
+        ["xpath=//input[@id='input_SearchBox']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db90a2f2-7d1f-46ad-9427-50c3db64fe8b",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_SearchBox",
+      "targets": [
+        ["id=input_SearchBox", "id"],
+        ["name=text", "name"],
+        ["css=#input_SearchBox", "css:finder"],
+        ["xpath=//input[@id='input_SearchBox']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "schokolade"
+    }, {
+      "id": "b78559d8-16f7-4659-9f64-9d83de958fb2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=input_SearchBox",
+      "targets": [
+        ["id=input_SearchBox", "id"],
+        ["name=text", "name"],
+        ["css=#input_SearchBox", "css:finder"],
+        ["xpath=//input[@id='input_SearchBox']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e117e24a-aac4-493a-be92-247970077052",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cmsOnPageSubNavi--contentContainer:nth-child(3)",
+      "targets": [
+        ["css=.cmsOnPageSubNavi--contentContainer:nth-child(3)", "css:finder"],
+        ["xpath=//div[4]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a35dcaad-105a-48db-9a92-58d01bebb926",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.title--searchResults",
+      "targets": [
+        ["css=.title--searchResults", "css:finder"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "Ergebnisse für ''schokolade''"
+    }, {
+      "id": "241c490f-c406-49e1-9f5a-6bff04a12c2a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Weine",
+      "targets": [
+        ["linkText=Weine", "linkText"],
+        ["css=.pageHeader__content-navigation-l0-item:nth-child(3) > .pageHeader__content-navigation-l0-item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Weine')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/de/weine/c/m_0222')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Weine')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d43cbbe2-b837-4340-81f0-91885de10580",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Weine",
+      "targets": [
+        ["linkText=Weine", "linkText"],
+        ["css=.pageHeader__content-navigation-l0-item:nth-child(3) > .pageHeader__content-navigation-l0-item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Weine')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/de/weine/c/m_0222')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Weine')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b39ae509-d5ca-4f01-a499-3d5ae9145e1b",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_SearchBox",
+      "targets": [
+        ["id=input_SearchBox", "id"],
+        ["name=text", "name"],
+        ["css=#input_SearchBox", "css:finder"],
+        ["xpath=//input[@id='input_SearchBox']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45a0054a-1d9d-4f2c-9457-bc5ec93babbc",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_SearchBox",
+      "targets": [
+        ["id=input_SearchBox", "id"],
+        ["name=text", "name"],
+        ["css=#input_SearchBox", "css:finder"],
+        ["xpath=//input[@id='input_SearchBox']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "schokolade"
+    }, {
+      "id": "c3019725-01c7-4528-82bc-a7b167bfcf2b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=input_SearchBox",
+      "targets": [
+        ["id=input_SearchBox", "id"],
+        ["name=text", "name"],
+        ["css=#input_SearchBox", "css:finder"],
+        ["xpath=//input[@id='input_SearchBox']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "76b9ac77-a95d-4f02-867d-3c2f78b1c389",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pageHeader__content-logo",
+      "targets": [
+        ["css=.pageHeader__content-logo", "css:finder"],
+        ["xpath=//img[@alt='Coop Logo Home']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9724869c-5c3a-4ef4-ac94-569af6736f96",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Lebensmittel",
+      "targets": [
+        ["linkText=Lebensmittel", "linkText"],
+        ["css=.pageHeader__content-navigation-l0-item--active > .pageHeader__content-navigation-l0-item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Lebensmittel')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/de/lebensmittel/c/supermarket')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lebensmittel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c4a1acd-8268-412b-ad29-56b3600d9090",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Lebensmittel",
+      "targets": [
+        ["linkText=Lebensmittel", "linkText"],
+        ["css=.pageHeader__content-navigation-l0-item--active > .pageHeader__content-navigation-l0-item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Lebensmittel')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/de/lebensmittel/c/supermarket')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lebensmittel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d43c2bc7-5884-49b8-a4d7-0776d4f8dacf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,704)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e28cab4-f000-4e81-a025-149cd1d5c59f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cmsTeaserRow:nth-child(4) .productCarouselIsolated__title",
+      "targets": [
+        ["css=.cmsTeaserRow:nth-child(4) .productCarouselIsolated__title", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Highlights der Woche')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25bcee56-7885-40a0-b878-7b8d358cfa6a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.cmsTeaserRow:nth-child(4) .productCarouselIsolated__title",
+      "targets": [
+        ["css=.cmsTeaserRow:nth-child(4) .productCarouselIsolated__title", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Highlights der Woche')]", "xpath:innerText"]
+      ],
+      "value": "Highlights der Woche"
+    }]
+  }],
+  "suites": [{
+    "id": "b1d73390-9574-4f0d-8e20-5aa19a72d5d5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2470c576-5561-4d60-bcfe-be25fe780538"]
+  }],
+  "urls": ["https://www.coop.ch/"],
+  "plugins": []
+}
