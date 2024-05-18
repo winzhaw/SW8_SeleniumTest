@@ -1,0 +1,267 @@
+{
+  "id": "725a8ca4-fa68-4686-9c5a-2470929dfc79",
+  "version": "2.0",
+  "name": "Galaxus",
+  "url": "https://www.galaxus.ch",
+  "tests": [{
+    "id": "9d670204-cce2-432b-98bb-f4906dddc7da",
+    "name": "Galaxus",
+    "commands": [{
+      "id": "458d527e-3075-4209-989e-9be6f8f5d3c8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09f447c2-6fc1-43cf-8bf8-46c280b2e32b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1122",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ab328eb-e55f-48f8-b9c5-2db2ccc36d39",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gHVeQp .sc-d9c28d7f-0",
+      "targets": [
+        ["css=.gHVeQp .sc-d9c28d7f-0", "css:finder"],
+        ["xpath=//main[@id='pageContent']/div/div[2]/section/div/div/div/ul/li/article/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/de/page/dieser-kleine-kasten-soll-den-solarstromverbrauch-optimieren-32928')]", "xpath:href"],
+        ["xpath=//article/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afa57f5b-17a4-4d2f-8886-da1e4f8fff62",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gHVeQp .sc-d9c28d7f-0",
+      "targets": [
+        ["css=.gHVeQp .sc-d9c28d7f-0", "css:finder"],
+        ["xpath=//main[@id='pageContent']/div/div[2]/section/div/div/div/ul/li/article/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/de/page/dieser-kleine-kasten-soll-den-solarstromverbrauch-optimieren-32928')]", "xpath:href"],
+        ["xpath=//article/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b1aa437-1b96-4696-acde-78a27048c5ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-a0e4f3a5-3 > .sc-1145058e-1:nth-child(1) > .sc-d9c28d7f-0",
+      "targets": [
+        ["css=.sc-a0e4f3a5-3 > .sc-1145058e-1:nth-child(1) > .sc-d9c28d7f-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/aside/section/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/de/daily-deal')])[4]", "xpath:href"],
+        ["xpath=//aside/section/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d481855c-19d1-4daf-a43e-48fb19d7b2c2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-66a042f4-17",
+      "targets": [
+        ["css=.sc-66a042f4-17", "css:finder"],
+        ["xpath=//main[@id='pageContent']/div/div/div/div[2]/article/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/de/s4/product/scheppach-mrs-1300-universal-renovierungsschleifer-inkl-3-buersten-buerstenschleifer-1300-w-schleifm-44915877')]", "xpath:href"],
+        ["xpath=//article/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "502fa030-78b2-4289-8e0e-3e33d079f0eb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-66a042f4-17",
+      "targets": [
+        ["css=.sc-66a042f4-17", "css:finder"],
+        ["xpath=//main[@id='pageContent']/div/div/div/div[2]/article/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/de/s4/product/scheppach-mrs-1300-universal-renovierungsschleifer-inkl-3-buersten-buerstenschleifer-1300-w-schleifm-44915877')]", "xpath:href"],
+        ["xpath=//article/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3aaf3efb-9aa4-4024-b273-b570d27b495a",
+      "comment": "Verkäufe",
+      "command": "verifyText",
+      "target": "css=.sc-1acfff3f-0",
+      "targets": [
+        ["css=.sc-1acfff3f-0", "css:finder"],
+        ["xpath=//main[@id='pageContent']/div/div[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "923"
+    }, {
+      "id": "2467c5cc-aaa2-448e-b86b-b061f5c90818",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-66a042f4-17",
+      "targets": [
+        ["css=.sc-66a042f4-17", "css:finder"],
+        ["xpath=//main[@id='pageContent']/div/div/div/div[2]/article/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/de/s4/product/scheppach-mrs-1300-universal-renovierungsschleifer-inkl-3-buersten-buerstenschleifer-1300-w-schleifm-44915877')]", "xpath:href"],
+        ["xpath=//article/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f31be676-64d1-4a39-b310-bdc31ee2a4e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-66a042f4-17",
+      "targets": [
+        ["css=.sc-66a042f4-17", "css:finder"],
+        ["xpath=//main[@id='pageContent']/div/div/div/div[2]/article/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/de/s4/product/scheppach-mrs-1300-universal-renovierungsschleifer-inkl-3-buersten-buerstenschleifer-1300-w-schleifm-44915877')]", "xpath:href"],
+        ["xpath=//article/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70b0200e-1364-4530-8ac8-6bab15b472a6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fWWTEf",
+      "targets": [
+        ["css=.fWWTEf", "css:finder"],
+        ["xpath=//img[@alt='Produktbild']", "xpath:img"],
+        ["xpath=//main[@id='pageContent']/div/div/div/div/div/section/div/div/div/button/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eca3815d-aa83-42a5-9ae7-09bb5933dab5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,173)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf943a31-89c0-4683-bafc-364a12eb5a7e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-fa59628d-2:nth-child(1) .sc-7d42bb26-1",
+      "targets": [
+        ["css=.sc-fa59628d-2:nth-child(1) .sc-7d42bb26-1", "css:finder"],
+        ["xpath=//img[@alt='Produktbild']", "xpath:img"],
+        ["xpath=//main[@id='pageContent']/div/div/div/div/div/section/div/div/div/button/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "363b1528-eb95-44d8-8752-152dcb47dc94",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,919)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64f9ed08-b418-4828-b065-cc851ceca439",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1895)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "965778c4-18c0-4476-a94c-e9173b2f557c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2904)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2a63805-d706-47b0-a73b-7d1eda8bbfa7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3776)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04ff2610-9b03-4223-9739-e28e7514aca5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-ca470560-3:nth-child(2) > .sc-1ce7ff18-1 .sc-213ca6b5-1:nth-child(1) > .sc-d9c28d7f-0",
+      "targets": [
+        ["css=.sc-ca470560-3:nth-child(2) > .sc-1ce7ff18-1 .sc-213ca6b5-1:nth-child(1) > .sc-d9c28d7f-0", "css:finder"],
+        ["xpath=//div[@id=':rt:']/div/div[2]/div/div/div/div/div/div[2]/div/div/article/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/de/s4/product/metabo-ssep1400mvt-saebelsaege-saebelsaege-12266385')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/article/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1b00f4b-2011-4cd3-a769-04715a0f7035",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b214f18b-842f-480e-a58c-84e292905ac5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#addToCartButton > .sc-ee05a9d9-0",
+      "targets": [
+        ["css=#addToCartButton > .sc-ee05a9d9-0", "css:finder"],
+        ["xpath=//button[@id='addToCartButton']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ae83111-4a4e-45d8-b051-fc8ac57e3715",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-dbd9c505-1",
+      "targets": [
+        ["css=.sc-dbd9c505-1", "css:finder"],
+        ["xpath=//main[@id='pageContent']/div/div/div/div/div[2]/div/div[4]/div/button/span/span/div", "xpath:idRelative"],
+        ["xpath=//span/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fed52ed3-291d-4110-abe1-9643a53eb3d4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Weiter zum Warenkorb",
+      "targets": [
+        ["linkText=Weiter zum Warenkorb", "linkText"],
+        ["css=.sc-e46a281b-10", "css:finder"],
+        ["xpath=//a[contains(text(),'Weiter zum Warenkorb')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/de/cart')]", "xpath:href"],
+        ["xpath=//dialog/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Weiter zum Warenkorb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5246e9f1-d35a-490e-a4a7-b51938003110",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-a5e0434a-0",
+      "targets": [
+        ["css=.sc-a5e0434a-0", "css:finder"],
+        ["xpath=//main[@id='pageContent']/div", "xpath:idRelative"],
+        ["xpath=//main/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0912d79-ab76-4fcc-ade2-71bc3e79b337",
+      "comment": "Warenkorb",
+      "command": "assertText",
+      "target": "css=.sc-f93c62dd-0",
+      "targets": [
+        ["css=.sc-f93c62dd-0", "css:finder"],
+        ["xpath=//main[@id='pageContent']/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Warenkorb')]", "xpath:innerText"]
+      ],
+      "value": "Warenkorb"
+    }]
+  }],
+  "suites": [{
+    "id": "512245f8-5e7c-45d2-bd93-2f4840e48c77",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9d670204-cce2-432b-98bb-f4906dddc7da"]
+  }],
+  "urls": ["https://www.galaxus.ch/"],
+  "plugins": []
+}
